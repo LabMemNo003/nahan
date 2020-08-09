@@ -10,7 +10,7 @@ res += '\n'
 res += '| package | version | build | coverage |\n'
 res += '|:-------:|:-------:|:-----:|:--------:|\n'
 for (const pkg of pkgs) {
-    res += `| **${pkg}** `
+    res += `| [**${pkg}**](https://github.com/nahanjs/${pkg}) `
     res += `| [![NPM Version][${pkg}-npm-image]][${pkg}-npm-url] `
     res += `| [![Build Status][${pkg}-travis-ci-image]][${pkg}-travis-ci-url] `
     res += `| [![Coverage Status][${pkg}-coveralls-image]][${pkg}-coveralls-url] `
