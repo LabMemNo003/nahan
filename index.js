@@ -2,7 +2,13 @@
 
 const fse = require('fs-extra');
 
-const pkgs = ['nahan-onion', 'nahan-context', 'nahan-path', 'nahan-method'];
+const pkgs = [
+    'nahan-onion',
+    'nahan-context',
+    'nahan-context-koa',
+    'nahan-path',
+    'nahan-method',
+];
 
 let res = ''
 res += '# nahan\n'
